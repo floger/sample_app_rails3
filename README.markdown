@@ -1,3 +1,9 @@
+# Ruby on Rails Tutorial: sample application
+
+This is the sample application for
+[*Ruby on Rails Tutorial: Learn Rails by Example*](http://railstutorial.org/)
+by [Michael Hartl](http://michaelhartl.com/).
+
 == Welcome to Rails
 
 Rails is a web-application framework that includes everything needed to create
@@ -24,6 +30,8 @@ unlike the relationship between the Active Record and Action Pack that is much
 more separate. Each of these packages can be used independently outside of
 Rails. You can read more about Action Pack in
 link:files/vendor/rails/actionpack/README.html.
+
+
 
 
 == Getting Started
