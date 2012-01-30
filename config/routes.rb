@@ -3,7 +3,7 @@ SampleApp::Application.routes.draw do
   match '/about', :to => 'pages#about'
   match '/help', :to => 'pages#help'
   match '/signin', :to => 'pages#singin'
-  match '/signup', :to => 'pages#singup'
+  match '/signup', :to => 'users#new'
   #get "pages/home";
   #get "pages/contact";
   #get "pages/about";
