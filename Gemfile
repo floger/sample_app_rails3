@@ -20,6 +20,7 @@ gem 'jquery-rails'
 
 group :development do
 	gem 'rspec-rails'
+	gem 'annotate'
 end
 
 # To use ActiveModel has_secure_password
@@ -32,11 +33,12 @@ end
 # gem 'capistrano'
 
 # To use debugger
-#gem 'ruby-debug19', :require => 'ruby-debug'
+gem 'ruby-debug19', :require => 'ruby-debug'
 
 group :test do
   # Pretty printed test output
   #gem 'turn', '~> 0.8.3', :require => false
   gem 'rspec-rails'
   gem 'webrat'
+  gem 'spork'
 end

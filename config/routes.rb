@@ -1,4 +1,8 @@
 SampleApp::Application.routes.draw do
+  
+  #用户的资源的路由
+  resources :users
+
   match '/contact',:to => 'pages#contact'
   match '/about', :to => 'pages#about'
   match '/help', :to => 'pages#help'
