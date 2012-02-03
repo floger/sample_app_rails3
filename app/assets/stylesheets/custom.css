@@ -8,7 +8,7 @@ header{
 	padding-top: 20px;
 }
 header img {
-	padding: 1em;
+	padding: 0;
 	background: #fff;
 }
 section{
@@ -93,4 +93,24 @@ footer{
 }
 footer nav{
 	float: none;
+}
+
+/*TABLE css*/
+table.profile {
+	width:100%;
+	margin-bottom: 0;
+}
+tb.main{
+	width:70%;
+	padding:1em;
+}
+tb.sidebar{
+	width: 70%;
+	padding: 1em;
+	vertical-align: top;
+	background: #ffc;
+}
+.profile img.gravatar{
+	border: 1px solid #999;
+	margin-bottom: -15px;
 }
