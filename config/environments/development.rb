@@ -27,4 +27,6 @@ SampleApp::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+  #设置log日志的级别
+  config.log_level = :info #fatail
 end
